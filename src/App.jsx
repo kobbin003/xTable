@@ -27,6 +27,7 @@ function App() {
 
 	return (
 		<>
+			<h1>Sortable Table</h1>
 			<div>
 				<button onClick={handleSortBydate}>Sort by Date</button>
 				<button onClick={handleSortByViews}>Sort by Views</button>
