@@ -26,8 +26,8 @@ function App() {
 	};
 
 	return (
-		<>
-			<div>
+		<div className="container">
+			<div className="btn-container">
 				<button onClick={handleSortBydate}>Sort by Date</button>
 				<button onClick={handleSortByViews}>Sort by Views</button>
 			</div>
@@ -49,7 +49,7 @@ function App() {
 					))}
 				</tbody>
 			</table>
-		</>
+		</div>
 	);
 }
 
